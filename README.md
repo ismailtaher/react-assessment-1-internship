@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## json-server
+
+The app is using json-server in order to mimic a backend.
+To start the json-server:
+json-server -w data/db.json -p 3500 
+
 ## Available Scripts
 
 In the project directory, you can run:
