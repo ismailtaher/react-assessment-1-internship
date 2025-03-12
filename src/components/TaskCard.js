@@ -1,6 +1,6 @@
 import React from "react";
 
-const TaskCard = ({ task }) => {
+const TaskCard = React.memo(({ task }) => {
   const onDragStart = (e) => {
     console.log("onDragStart");
     e.dataTransfer.setData("taskId", task.id);
@@ -15,6 +15,6 @@ const TaskCard = ({ task }) => {
       <h4>{task.title}</h4>
     </article>
   );
-};
+});
 
 export default TaskCard;
