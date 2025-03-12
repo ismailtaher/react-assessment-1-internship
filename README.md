@@ -6,6 +6,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 The app is using json-server in order to mimic a backend.
 To start the json-server:
+
+### `json-server -w data/db.json -p 3500`
+
+## json-server
+
+The app is using json-server in order to mimic a backend.
+To start the json-server:
+
 ### `json-server -w data/db.json -p 3500`
 
 ## Available Scripts
